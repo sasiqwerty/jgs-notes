@@ -69,15 +69,15 @@ An online targetted attack on key infrastructure to disrupt peace for any reason
 
 ### DONTS
 
-- Do not disrupt or interfere with another individual's work using computer technology
-- Do not spy using computer technology
-- Do not use computer technology to steal
-- Do not use computer technology to spread fake news
-- Avoid pirating software and pay whenever possible.
-- Take permission when using others belongings especially computers.
-- To not steal/claim ownership of intellectual property.
-- When writing code/developing software, keep in mind of the social impact
-- Be polite and courteous with fellow members when online.
+- Do not *disrupt or interfere* with another individual's work using computer technology
+- Do not *spy* using computer technology
+- Do not use computer technology to *steal*
+- Do not use computer technology to spread *fake news*
+- Avoid *pirating* software and pay whenever possible.
+- Take *permission* when using others belongings especially computers.
+- To not *steal/claim ownership* of intellectual property.
+- When writing code/developing software, keep in mind of the *social impact*
+- Be *polite and courteous* with fellow members when online.
 
 ### Words to Lookup
 1. **Forum**
