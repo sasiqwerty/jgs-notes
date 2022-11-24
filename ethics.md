@@ -15,6 +15,8 @@
    3. [Theft of Personal information](#theft-of-personal-information)
    4. [Cyberterrorism](#cyberterrorism)
 4. [Computing Ethics](#computing-ethics)
+   1. [DONTS](#donts)
+   2. [Words to Lookup](#words-to-lookup)
 
 
 ## Introduction
@@ -62,5 +64,28 @@ Its hard to keep data private in the age of the internet,One should be careful n
 ### Cyberterrorism
 An online targetted attack on key infrastructure to disrupt peace for any reason. 
 ## Computing Ethics
-Ethics is the set of moral principles that govern the behaviour of a group or an individual.
-Computing Ethics is a set of procedures,moral principles, and ethical practices that regulate the use of 
+- Ethics is the set of moral principles that govern the behaviour of a group or an individual.
+- Computing Ethics is a set of procedures,moral principles, and ethical practices that regulate the use of computers.
+
+### DONTS
+
+- Do not disrupt or interfere with another individual's work using computer technology
+- Do not spy using computer technology
+- Do not use computer technology to steal
+- Do not use computer technology to spread fake news
+- Avoid pirating software and pay whenever possible.
+- Take permission when using others belongings especially computers.
+- To not steal/claim ownership of intellectual property.
+- When writing code/developing software, keep in mind of the social impact
+- Be polite and courteous with fellow members when online.
+
+### Words to Lookup
+1. **Forum**
+2. **Mailing lists**
+3. **Indiscriminate**
+4. **Crime/Criminal**
+5. **Privacy**
+6. **Tradition**
+7. **Platform**
+8. **prone**
+9. **Piracy**
