@@ -1,4 +1,4 @@
-# Internet
+# Ethics and Safety Measures
 1. [Introduction](#introduction)
 2. [Advantages of Internet](#advantages-of-internet)
    1. [Education](#education)
@@ -58,5 +58,9 @@ Computers connected to the internet are more prone to virus attacks.
 ### Spamming
 The act of forwarding/sending unwanted emails without discrimination to multiple mailing lists, individuals and newsgroups.
 ### Theft of Personal information
+Its hard to keep data private in the age of the internet,One should be careful nonetheless. If data is stolen it can be used for bad things, to gain unfair advantages and inflict financial losses.
 ### Cyberterrorism
+An online targetted attack on key infrastructure to disrupt peace for any reason. 
 ## Computing Ethics
+Ethics is the set of moral principles that govern the behaviour of a group or an individual.
+Computing Ethics is a set of procedures,moral principles, and ethical practices that regulate the use of 
