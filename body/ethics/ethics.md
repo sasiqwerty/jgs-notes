@@ -17,12 +17,26 @@
 4. [Computing Ethics](#computing-ethics)
    1. [DONTS](#donts)
    2. [Words to Lookup](#words-to-lookup)
+5. [Unethical practices](#unethical-practices)
+   1. [Plagiarism](#plagiarism)
+      1. [Prevention](#prevention)
+   2. [Cyberbullying](#cyberbullying)
+      1. [Prevention](#prevention-1)
+   3. [Phishing](#phishing)
+      1. [Prevention](#prevention-2)
+   4. [Hacking](#hacking)
+   5. [Spamming](#spamming-1)
+   6. [Individual right to privacy](#individual-right-to-privacy)
+   7. [software privacy](#software-privacy)
+   8. [intellectual Property Rights](#intellectual-property-rights)
+   9. [Words to Lookup](#words-to-lookup-1)
 
 
 ## Introduction
 The internet is a global system of interconnected computer networks that share information and resources among themselves.
 
 ## Advantages of Internet
+![adv-int](Advantages%20of%20Internet.svg)
 ### Education
 Internet has changed the traditional learning system by enabling collaboration at the highest level.
 - Universities now offer online courses
@@ -55,6 +69,7 @@ Streaming services have led to the explosion of media outlets.
 Health and medical information is available online in the form of forums and webpages written by certified doctors.
 
 ## Disadvantages of Internet
+![Disadvantages](/body/ethics/Disadvantages%20of%20Internet.svg)
 ### Virus Attack
 Computers connected to the internet are more prone to virus attacks.
 ### Spamming
@@ -89,3 +104,55 @@ An online targetted attack on key infrastructure to disrupt peace for any reason
 7. **Platform**
 8. **prone**
 9. **Piracy**
+
+## Unethical practices
+![mind-map](/body/ethics/Unethical%20Practices.svg)
+### Plagiarism
+Usage or imitation of the language and thoughts of another person projected as one's own original work.
+- a crime and a fraud
+- International Copyright law states that "*the expression of original ideas is considered as the intellectual property and protected by copyright laws*".
+- Almost all forms of expression fall under the protection as long as they can be reordered in some form.
+
+#### Prevention
+- **Citation** is acknowledging the original writer and the source from the where the material has been sourced,citation gives strength to the resource.
+- One can rephrase the content to avoid plagiarism.
+- Creativity should be encouraged.
+- use quotes when using words of another person.
+
+### Cyberbullying
+The act of harming,harassing, or targetting a person using the internet in a deliberate manner with an intent to harm.
+- Insulting remarks
+- Threats
+- Rumors
+- Embarrassing content
+
+#### Prevention
+- DO NOT share personal information with peers
+- KNOW the internet user before engaging in conversation
+- restrict sharing of online activity to trusted peers
+- block and report
+### Phishing
+An attacker sends a *fraudulent* message designed to trick a person into revealing *sensitive information* or to *infect* the victim's computer.
+#### Prevention
+- Avoid unrecognised senders
+- Do not open unknown links
+- Use spam filters, firewalls, antivirus and anti-spyware software.
+- Check for unauthorised Transactions periodically
+- Avoid visiting unsecured websites
+  -  ![https](/body/ethics/https.jpg)
+  -  In HTTPS, the communication protocol is encrypted using Transport Layer Security (TLS) or, formerly, Secure Sockets Layer (SSL). The protocol is therefore also referred to as HTTP over TLS, or HTTP over SSL.
+### Hacking
+### Spamming
+### Individual right to privacy
+### software privacy
+### intellectual Property Rights
+
+### Words to Lookup
+1. project
+2. fraud
+3. plagiarism
+4. credit
+5. expression
+6. cite
+7. deliberate
+8. 
