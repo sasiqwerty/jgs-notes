@@ -1,4 +1,5 @@
 # Ethics and Safety Measures
+![Structure of the Lesson](/body/ethics/Ethics%20and%20Safety%20Measures.svg)
 1. [Introduction](#introduction)
 2. [Advantages of Internet](#advantages-of-internet)
    1. [Education](#education)
@@ -28,8 +29,13 @@
    5. [Spamming](#spamming-1)
    6. [Individual right to privacy](#individual-right-to-privacy)
    7. [software privacy](#software-privacy)
-   8. [intellectual Property Rights](#intellectual-property-rights)
-   9. [Words to Lookup](#words-to-lookup-1)
+   8. [Intellectual Property Rights](#intellectual-property-rights)
+      1. [Patents](#patents)
+      2. [Copyright](#copyright)
+      3. [](#)
+6. [Safety Measures while using Computer and the Internet](#safety-measures-while-using-computer-and-the-internet)
+7. [Digital Footprint](#digital-footprint)
+   1. [Words to Lookup](#words-to-lookup-1)
 
 
 ## Introduction
@@ -142,10 +148,36 @@ An attacker sends a *fraudulent* message designed to trick a person into reveali
   -  ![https](/body/ethics/https.jpg)
   -  In HTTPS, the communication protocol is encrypted using Transport Layer Security (TLS) or, formerly, Secure Sockets Layer (SSL). The protocol is therefore also referred to as HTTP over TLS, or HTTP over SSL.
 ### Hacking
+- An illegal intrusion into a computer or a network with an intent to steal or/and destroy.
+- Hacking for checking the security/integrity of a system is considered ethically a good thing.
+- Cracking is the act of breaking into highly secure systems to steal important data and might also destroy systems.
+
 ### Spamming
+Spamming is the act of sending an indiscriminate amount of unwanted bulk emails to a large group of people using mailing lists.
 ### Individual right to privacy
+The right to privacy is defined as the claim of individuals,groups or institutions to determine when, how and to what extent information about them is communicated to the others.
+
+Privacy issues arise when information is collected and shared without the consent of the authorised.
 ### software privacy
-### intellectual Property Rights
+The distribution of software without consent/license is called software piracy.
+### Intellectual Property Rights
+The legal right of an individual over their creations of mind both artistic and commercial.
+#### Patents
+A patent gives its owner the legal right to exclude others from making, using, or selling an invention for a limited period of time in exchange for publishing information about the invention.
+#### Copyright
+A copyright gives its owner the **exclusive** right to copy, distribute, adapt, display, and perform a creative work, usually for a limited time.
+#### 
+A trademark consists of a recognizable sign, design, or expression that **identifies** products or services from a particular source and **distinguishes** them from others.
+## Safety Measures while using Computer and the Internet
+- Strong Passwords using letters,numbers and symbols.
+- Minors need adult supervision.
+- Encrypt data and using End to End encryption when possible.
+- software updation and backup.
+- Firewall 
+  - A Firewall is a network security device that monitors and filters incoming and outgoing network traffic based on an organization’s previously established security policies
+
+## Digital Footprint
+one's unique set of traceable digital activities, actions, contributions and communications manifested on the Internet or digital devices.
 
 ### Words to Lookup
 1. project
