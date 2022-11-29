@@ -119,6 +119,8 @@ Usage or imitation of the language and thoughts of another person projected as o
 - International Copyright law states that "*the expression of original ideas is considered as the intellectual property and protected by copyright laws*".
 - Almost all forms of expression fall under the protection as long as they can be reordered in some form.
 
+![pla](/body/ethics/plagiarism.svg)
+
 #### Prevention
 - **Citation** is acknowledging the original writer and the source from the where the material has been sourced,citation gives strength to the resource.
 - One can rephrase the content to avoid plagiarism.
@@ -139,6 +141,9 @@ The act of harming,harassing, or targetting a person using the internet in a del
 - block and report
 ### Phishing
 An attacker sends a *fraudulent* message designed to trick a person into revealing *sensitive information* or to *infect* the victim's computer.
+
+![phishing](/body/ethics/phishing.svg)
+
 #### Prevention
 - Avoid unrecognised senders
 - Do not open unknown links
@@ -152,9 +157,14 @@ An attacker sends a *fraudulent* message designed to trick a person into reveali
 - Hacking for checking the security/integrity of a system is considered ethically a good thing.
 - Cracking is the act of breaking into highly secure systems to steal important data and might also destroy systems.
 
+![hacking](/body/ethics/hacking.svg)
+
 ### Spamming
 Spamming is the act of sending an indiscriminate amount of unwanted bulk emails to a large group of people using mailing lists.
 ### Individual right to privacy
+
+![](/body/ethics/ip.svg)
+
 The right to privacy is defined as the claim of individuals,groups or institutions to determine when, how and to what extent information about them is communicated to the others.
 
 Privacy issues arise when information is collected and shared without the consent of the authorised.
