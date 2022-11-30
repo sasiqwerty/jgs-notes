@@ -182,6 +182,8 @@ A trademark consists of a recognizable sign, design, or expression that **identi
 - Firewall 
   - A Firewall is a network security device that monitors and filters incoming and outgoing network traffic based on an organization’s previously established security policies
 
+![firewall](/body/ethics/firewall.png)
+
 ## Steps to deal with unethical practices
 
 ![prevent](/body/ethics/prevention.svg)
@@ -190,9 +192,9 @@ A trademark consists of a recognizable sign, design, or expression that **identi
 
 ![df](/body/ethics/Digital%20Footprint.svg)
 
-- One's unique set of traceable digital activities, actions, contributions and communications manifested on the Internet or digital devices.
-
-- Active and passive traces are used to keep track of the user activities online and send targetted ads.
+- One's unique set of **traceable digital activities**, actions, contributions and communications manifested on the Internet or digital devices.
+- **Digital Dossier** a collection of documents about a particular person, event, or subject.
+- **Active** and **passive** traces are used to keep track of the user activities online and send targetted ads.
 
 ![digital](/body/ethics/Digital%20Footprint-types.svg)
 
@@ -224,3 +226,4 @@ A trademark consists of a recognizable sign, design, or expression that **identi
 25. **Authorisation**
 26. **Encrypt**
 27. **Decrypt**
+28. **Dossier**
