@@ -17,7 +17,6 @@
    4. [Cyberterrorism](#cyberterrorism)
 4. [Computing Ethics](#computing-ethics)
    1. [DONTS](#donts)
-   2. [Words to Lookup](#words-to-lookup)
 5. [Unethical practices](#unethical-practices)
    1. [Plagiarism](#plagiarism)
       1. [Prevention](#prevention)
@@ -34,8 +33,9 @@
       2. [Copyright](#copyright)
       3. [](#)
 6. [Safety Measures while using Computer and the Internet](#safety-measures-while-using-computer-and-the-internet)
-7. [Digital Footprint](#digital-footprint)
-   1. [Words to Lookup](#words-to-lookup-1)
+7. [Steps to deal with unethical practices](#steps-to-deal-with-unethical-practices)
+8. [Digital Footprint](#digital-footprint)
+   1. [Words to Lookup](#words-to-lookup)
 
 
 ## Introduction
@@ -100,16 +100,6 @@ An online targetted attack on key infrastructure to disrupt peace for any reason
 - When writing code/developing software, keep in mind of the *social impact*
 - Be *polite and courteous* with fellow members when online.
 
-### Words to Lookup
-1. **Forum**
-2. **Mailing lists**
-3. **Indiscriminate**
-4. **Crime/Criminal**
-5. **Privacy**
-6. **Tradition**
-7. **Platform**
-8. **prone**
-9. **Piracy**
 
 ## Unethical practices
 ![mind-map](/body/ethics/Unethical%20Practices.svg)
@@ -163,7 +153,6 @@ An attacker sends a *fraudulent* message designed to trick a person into reveali
 Spamming is the act of sending an indiscriminate amount of unwanted bulk emails to a large group of people using mailing lists.
 ### Individual right to privacy
 
-![](/body/ethics/ip.svg)
 
 The right to privacy is defined as the claim of individuals,groups or institutions to determine when, how and to what extent information about them is communicated to the others.
 
@@ -171,13 +160,20 @@ Privacy issues arise when information is collected and shared without the consen
 ### software privacy
 The distribution of software without consent/license is called software piracy.
 ### Intellectual Property Rights
+
 The legal right of an individual over their creations of mind both artistic and commercial.
+
+![](/body/ethics/ip.svg)
+
 #### Patents
 A patent gives its owner the legal right to exclude others from making, using, or selling an invention for a limited period of time in exchange for publishing information about the invention.
 #### Copyright
 A copyright gives its owner the **exclusive** right to copy, distribute, adapt, display, and perform a creative work, usually for a limited time.
 #### 
 A trademark consists of a recognizable sign, design, or expression that **identifies** products or services from a particular source and **distinguishes** them from others.
+
+![description of ip](/body/ethics/IP-des.svg)
+
 ## Safety Measures while using Computer and the Internet
 - Strong Passwords using letters,numbers and symbols.
 - Minors need adult supervision.
@@ -186,15 +182,45 @@ A trademark consists of a recognizable sign, design, or expression that **identi
 - Firewall 
   - A Firewall is a network security device that monitors and filters incoming and outgoing network traffic based on an organization’s previously established security policies
 
+## Steps to deal with unethical practices
+
+![prevent](/body/ethics/prevention.svg)
+
 ## Digital Footprint
-one's unique set of traceable digital activities, actions, contributions and communications manifested on the Internet or digital devices.
+
+![df](/body/ethics/Digital%20Footprint.svg)
+
+- One's unique set of traceable digital activities, actions, contributions and communications manifested on the Internet or digital devices.
+
+- Active and passive traces are used to keep track of the user activities online and send targetted ads.
+
+![digital](/body/ethics/Digital%20Footprint-types.svg)
 
 ### Words to Lookup
-1. project
-2. fraud
-3. plagiarism
-4. credit
-5. expression
-6. cite
-7. deliberate
-8. 
+1. **Forum**
+2. **Mailing lists**
+3. **Indiscriminate**
+4. **Crime/Criminal**
+5. **Privacy**
+6. **Tradition**
+7. **Platform**
+8. **prone**
+9. **Piracy**
+10. **project**
+11. **fraud**
+12. **plagiarism**
+13. **credit**
+14. **expression**
+15. **cite**
+16. **deliberate**
+17. **validate**
+18. **derogatory**
+19. **mislead**
+20. **divulge**
+21. **secure**
+22. **ethics**
+23. **cracker**
+24. **commerical**
+25. **Authorisation**
+26. **Encrypt**
+27. **Decrypt**
