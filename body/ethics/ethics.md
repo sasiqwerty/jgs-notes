@@ -27,7 +27,7 @@
    4. [Hacking](#hacking)
    5. [Spamming](#spamming-1)
    6. [Individual right to privacy](#individual-right-to-privacy)
-   7. [software privacy](#software-privacy)
+   7. [software Piracy](#software-piracy)
    8. [Intellectual Property Rights](#intellectual-property-rights)
       1. [Patents](#patents)
       2. [Copyright](#copyright)
@@ -157,8 +157,14 @@ Spamming is the act of sending an indiscriminate amount of unwanted bulk emails 
 The right to privacy is defined as the claim of individuals,groups or institutions to determine when, how and to what extent information about them is communicated to the others.
 
 Privacy issues arise when information is collected and shared without the consent of the authorised.
-### software privacy
+### software Piracy
 The distribution of software without consent/license is called software piracy.
+
+![sl](/body/ethics/sl.svg)
+
+![types](/body/ethics/types_software_licenses.png)
+
+
 ### Intellectual Property Rights
 
 The legal right of an individual over their creations of mind both artistic and commercial.
