@@ -1,0 +1,77 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1669708271754" ID="ID_992999187" MODIFIED="1669711516066" STYLE="bubble" TEXT="Ethics and Safety Measures">
+<node CREATED="1669711560098" ID="ID_1339315279" MODIFIED="1669711564285" POSITION="right" TEXT="The internet">
+<node CREATED="1669713659111" ID="ID_55504355" MODIFIED="1669713662658" TEXT="Definition"/>
+</node>
+<node CREATED="1669711597218" ID="ID_1489060871" MODIFIED="1669711600696" POSITION="right" TEXT="Computing Ethics"/>
+<node CREATED="1669711601186" ID="ID_251393334" MODIFIED="1669711608215" POSITION="right" TEXT="Unethical Practices">
+<node CREATED="1669697935704" ID="ID_662867263" MODIFIED="1669713870851" TEXT="Plagiarism">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1669697944439" ID="ID_1889614754" MODIFIED="1669713870853" TEXT="Cyberbullying">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1669697953768" ID="ID_1180997045" MODIFIED="1669713870853" TEXT="Phishing">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1669697961207" ID="ID_1966831804" MODIFIED="1669713870853" TEXT="Hacking">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1669697998183" ID="ID_835382676" MODIFIED="1669713870853" TEXT="Software Privacy">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1669697971815" ID="ID_1109910370" MODIFIED="1669713870852" TEXT="Individual right to privacy">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1669697967511" ID="ID_226213603" MODIFIED="1669713870852" TEXT="Spamming">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1669698527364" ID="ID_548040627" MODIFIED="1669713870851" TEXT="Intellectual Property Rights">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+</node>
+<node CREATED="1669711608882" ID="ID_1110348417" MODIFIED="1669711637169" POSITION="right" TEXT="Safety Measures while using Computer and the Internet "/>
+<node CREATED="1669713826645" ID="ID_1196700307" MODIFIED="1669713836561" POSITION="right" TEXT="Digital Footprints"/>
+<node CREATED="1669711565154" ID="ID_432321005" MODIFIED="1669711571942" POSITION="left" TEXT="Advantages of the Internet">
+<node CREATED="1669698837859" ID="ID_11813299" MODIFIED="1669713861714" TEXT="Education">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1669698842466" ID="ID_568843373" MODIFIED="1669713861727" TEXT="Communication">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1669698850674" ID="ID_97680476" MODIFIED="1669713861727" TEXT="Business">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1669698856818" ID="ID_715134459" MODIFIED="1669713861726" TEXT="E-Commerce">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1669698866898" ID="ID_422159335" MODIFIED="1669713861725" TEXT="Media and Entertainment">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1669698878530" ID="ID_1360830787" MODIFIED="1669713861723" TEXT="Social Networking">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1669698885202" ID="ID_1221433771" MODIFIED="1669713861722" TEXT="Internet Forum">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1669698890834" ID="ID_1700033544" MODIFIED="1669713861719" TEXT="Health and Fitness">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+</node>
+<node CREATED="1669711576866" ID="ID_1790655403" MODIFIED="1669711594915" POSITION="left" TEXT="Disadvantages of the Internet">
+<node CREATED="1669698993074" ID="ID_497412099" MODIFIED="1669713867092" TEXT="Virus Attack">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1669699002289" ID="ID_998673929" MODIFIED="1669713867096" TEXT="Spamming">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1669699006193" ID="ID_725405199" MODIFIED="1669713867095" TEXT="Theft of Personal Information">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+<node CREATED="1669699013297" ID="ID_102914522" MODIFIED="1669713867093" TEXT="Cyber Terrorism">
+<font NAME="SansSerif" SIZE="10"/>
+</node>
+</node>
+</node>
+</map>
