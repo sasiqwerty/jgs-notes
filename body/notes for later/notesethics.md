@@ -35,3 +35,13 @@ Sangeet Chopra is one of the most popular ethical hackers and an IT security spe
 List any five safety measures while using the Computer and Internet.
 
 
+1. hacker
+2. piracy
+3. plagiarism
+4. phishing
+5. decryption
+6. footprint
+7. inappropriate
+8. vigilant
+9. reputation
+10. intrusion
