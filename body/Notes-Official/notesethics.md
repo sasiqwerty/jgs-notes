@@ -1,4 +1,8 @@
 # LESSON 4 – ETHICS AND SAFETY MEASURES
+
+## FA I
+Words for Dictation
+
 ## New Words
 1.	Ethics
 2. Communication	
@@ -34,14 +38,8 @@ Sangeet Chopra is one of the most popular ethical hackers and an IT security spe
 ## Home Assignment
 List any five safety measures while using the Computer and Internet.
 
-
-1. hacker
-2. piracy
-3. plagiarism
-4. phishing
-5. decryption
-6. footprint
-7. inappropriate
-8. vigilant
-9. reputation
-10. intrusion
+## FA II
+1. Mention 2 advantages and disadvantages of internet? [2M]
+2. Draw a GO for any 4 unethical practices that are prevalent in the society. [2M]
+3. An impression or information about a person that exists on the internet because of online activity is called _____________ [1M]
+4. When software is copied and distributed illegally, it is called _____________ [1M]
