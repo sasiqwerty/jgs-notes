@@ -16,7 +16,7 @@ Words for Dictation
 10. Cracker
 
 ## Definitions
-Definitions:
+
 1.	**Computer Ethics**: Set of moral Principles that regulate the use of computers.
 2.	Plagiarism: It is the act of copying or stealing someone else’s words or ideas and passing them off as your own work. 
 3.	**Citation**: Acknowledging the original writer and source from where material has been collected is called citation.
