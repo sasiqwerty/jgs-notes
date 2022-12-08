@@ -18,7 +18,7 @@ Words for Dictation
 ## Definitions
 
 1.	**Computer Ethics**: Set of moral Principles that regulate the use of computers.
-2.	Plagiarism: It is the act of copying or stealing someone else’s words or ideas and passing them off as your own work. 
+2.	**Plagiarism**: It is the act of copying or stealing someone else’s words or ideas and passing them off as your own work. 
 3.	**Citation**: Acknowledging the original writer and source from where material has been collected is called citation.
 4.	**Cyberbullying**: The use of electronic communication to bully a person, typically by sending messages of an intimidating or threatening nature.
 5.	**Hacking**: An unauthorized intrusion into a computer or a network. The person engaged in hacking activities is known as a hacker/cracker.
