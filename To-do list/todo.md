@@ -5,6 +5,7 @@
 - Go js for mind maps or find a way to export mindmaps into HTML
 - https://tobloef.com/text2mindmap/
 - DONT BREAK THE SITE
+- https://wallpaperaccess.com/windows-11-4k
 
 A way to read a small text file and based on tabs and spaces the structure of the page is determined and the image is drawn in SVG format.
 SVG.js library and logic from the https://tobloef.com/text2mindmap/ webpage.
