@@ -1,0 +1,25 @@
+:root {
+  --blue-sapphire: #28536bff;
+  --rosy-brown: #c2948aff;
+  --pewter-blue: #7ea8beff;
+  --isabelline: #f6f0edff;
+  --khaki-web: #bbb193ff;
+  --pewter-blue-2: rgb(184, 211, 226);
+}
+body {
+  background-color: var(--isabelline);
+  display: flexbox;
+  display: inline-block;
+}
+ul {
+  background-color: var(--pewter-blue-2);
+  margin: 0.1em;
+  padding: 0.1em;
+}
+li {
+  background-color: var(--pewter-blue);
+  margin: 0.1em;
+  padding: 0.1em;
+  border-radius: 0.25em;
+  list-style: lower-alpha;
+}
