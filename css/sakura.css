@@ -164,7 +164,7 @@ pre > code {
 
 /* Tables */
 table {
-  text-align: justify;
+  text-align: left;
   width: 100%;
   border-collapse: collapse;
 }
@@ -172,7 +172,7 @@ table {
 td,
 th {
   padding: 0.5em;
-  border-bottom: 1px solid #f7f7f7;
+  border: 1px solid #000000;
 }
 
 /* Buttons, forms and input */

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Handouts on Introduction to HTML</title>
+        <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+/* From extension ms-toolsai.jupyter */
+/* These classnames are inherited from bootstrap, but are present in most notebook renderers */
+
+.alert {
+    width: auto;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.alert > *:last-child {
+    margin-bottom: 0;
+}
+#preview > .alert:last-child {
+    /* Prevent this being set to zero by the default notebook stylesheet */
+    padding-bottom: 1em;
+}
+
+.alert-success {
+    /* Note there is no suitable color available, so we just copy "info" */
+    background-color: var(--theme-info-background);
+    color: var(--theme-info-foreground);
+}
+.alert-info {
+    background-color: var(--theme-info-background);
+    color: var(--theme-info-foreground);
+}
+.alert-warning {
+    background-color: var(--theme-warning-background);
+    color: var(--theme-warning-foreground);
+}
+.alert-danger {
+    background-color: var(--theme-error-background);
+    color: var(--theme-error-foreground);
+}
+
+</style>
+        
+        
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+        
+    </head>
+    <body class="vscode-body vscode-dark">
+        <h1 id="handouts-on-introduction-to-html">Handouts on Introduction to HTML</h1>
+<h2 id="definitions">Definitions</h2>
+<ul>
+<li><strong>Hypertext</strong>: Hypertext is plain text with references (hyperlinks) to other text that the user can immediately access. The hypertext opens a new webpage, when clicked on.</li>
+<li><strong>Markup Language</strong>: It is a language that uses special symbols called ‘tags’ to markup the text document which instructs the browser to display the text. Ex: HTML</li>
+<li>HTML is a markup language used for designing web pages on the World Wide Web. It comes as a complete code package that enables the creation of webpages containing text and graphics. All web browsers are designed to understand and interpret this language.</li>
+<li><strong>Text Editor</strong>: A computer program that lets a user enter, change, store and print text. Text editors use HTML tags to create a webpage. Ex: Notepad, Word pad, Brackets etc.</li>
+<li><strong>HTML tags</strong>: HTML tags are keywords enclosed in a pair of angular brackets. The first tag (&lt; &gt;) is known as opening tag or ON tag. The end tag (&lt;/ &gt;) is known as closing tag or OFF tag. The main content is placed between ON and OFF tags. Ex: <code>&lt;html&gt; &lt;/html&gt;</code></li>
+<li><strong>HTML Element</strong>: The opening tag, closing tag and the content between the tags together is called an HTML element. Ex: <code>&lt;p&gt;OXFORD&lt;/p&gt;</code>. HTML elements can be categorized as Container Element: These elements have a beginning and an end tag.
+<ul>
+<li><code>&lt;html&gt;,&lt;head&gt;,&lt;body&gt;,&lt;b&gt;,&lt;u&gt;</code> etc.</li>
+</ul>
+</li>
+<li><strong>Empty Element</strong>: These elements have only an opening or start tag. They do not have a closing tag.
+<ul>
+<li>Ex: <code>&lt;hr&gt;,&lt;br&gt;,&lt;img&gt;</code></li>
+</ul>
+</li>
+<li><strong>Attributes</strong>: Keywords that provide additional information about the HTML tags are called Attributes.</li>
+</ul>
+<h2 id="structure-of-a-html-document">Structure of a HTML document</h2>
+<pre><code>    &lt;html&gt;
+    &lt;head&gt;
+    &lt;title&gt;Page title&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt; This is a heading&lt;/h1&gt;
+        &lt;p&gt;This is a paragraph.&lt;/p&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+</code></pre>
+<h2 id="cascading-style-sheets">Cascading style Sheets</h2>
+<ul>
+<li><strong>CSS</strong> (Cascading Style Sheet): CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</li>
+</ul>
+<h3 id="features-of-css">Features of CSS</h3>
+<ul>
+<li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media.</li>
+<li>CSS saves a lot of work. It can control the layout of multiple web pages all at once.</li>
+<li>External stylesheets are stored as .css files.</li>
+</ul>
+<h3 id="different-ways-to-insert-css">Different ways to insert CSS</h3>
+<ul>
+<li><strong>External CSS</strong>: With an external style sheet, you can change the look of an entire website by changing just one file. Each HTML page must include a reference to the external style sheet file inside the <code>&lt;link&gt;</code> element,inside the head section. An external style sheet can be written in any text editor, and must be saved with a .css extension.</li>
+<li><strong>Internal CSS</strong>: An internal style sheet may be used if one single HTML page has a unique style. The internal style is defined inside the <code>&lt;style&gt;</code> element, inside the head section.</li>
+<li><strong>Inline CSS</strong>: An inline style may be used to apply a unique style for a single element. To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.</li>
+</ul>
+
+        
+        
+    </body>
+    </html>

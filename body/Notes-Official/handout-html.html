@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JGS Notes</title>
+    <link rel="stylesheet" href="/css/sakura.css" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
+    <script src="/js/home-key.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Handouts on Introduction to HTML</h1>
+    <ul>
+      <li
+        ><strong>Hypertext</strong>: Hypertext is plain text with references
+        (hyperlinks) to other text that the user can immediately access. The
+        hypertext opens a new webpage, when clicked on.</li
+      >
+      <li
+        ><strong>Markup Language</strong>: It is a language that uses special
+        symbols called ‘tags’ to markup the text document which instructs the
+        browser to display the text. Ex: HTML
+      </li>
+      <li
+        >HTML is a markup language used for designing web pages on the World
+        Wide Web. It comes as a complete code package that enables the creation
+        of webpages containing text and graphics. All web browsers are designed
+        to understand and interpret this language.</li
+      >
+      <li
+        ><strong>Text Editor</strong>: A computer program that lets a user
+        enter, change, store and print text. Text editors use HTML tags to
+        create a webpage. Ex: Notepad, Word pad, Brackets etc.</li
+      >
+      <li
+        ><strong>HTML tags</strong>: HTML tags are keywords enclosed in a pair
+        of angular brackets. The first tag (&lt; &gt;) is known as opening tag
+        or ON tag. The end tag (&lt;/ &gt;) is known as closing tag or OFF tag.
+        The main content is placed between ON and OFF tags. Ex:
+        <code>&lt;html&gt; &lt;/html&gt;</code></li
+      >
+      <li
+        ><strong>HTML Element</strong>: The opening tag, closing tag and the
+        content between the tags together is called an HTML element. Ex:
+        <code>&lt;p&gt;OXFORD&lt;/p&gt;</code>. HTML elements can be categorized
+        as Container Element: These elements have a beginning and an end tag.<ul>
+          <li
+            ><code
+              >&lt;html&gt;,&lt;head&gt;,&lt;body&gt;,&lt;b&gt;,&lt;u&gt;</code
+            >
+            etc.</li
+          >
+        </ul>
+      </li>
+      <li
+        ><strong>Empty Element</strong>: These elements have only an opening or
+        start tag. They do not have a closing tag.<ul>
+          <li>Ex: <code>&lt;hr&gt;,&lt;br&gt;,&lt;img&gt;</code></li>
+        </ul>
+      </li>
+      <li
+        ><strong>Attributes</strong>: Keywords that provide additional
+        information about the HTML tags are called Attributes.</li
+      >
+      <li
+        ><strong>Structure of HTML document</strong>
+        <pre><code>  <span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Page title<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span> This is a heading<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This is a paragraph.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+    </code></pre>
+      </li>
+    </ul>
+    <div>
+      <div class="tg-wrap"
+        ><table
+          ><thead
+            ><tr><th>Tags</th><th>Description</th></tr></thead
+          ><tbody
+            ><tr
+              ><td>&lt;html&gt;</td
+              ><td
+                >It is the root element and it defines the whole HTML document.
+                It is a container element.</td
+              ></tr
+            ><tr
+              ><td>&lt;head&gt;</td
+              ><td>It contains meta information about the HTML page.</td></tr
+            ><tr
+              ><td>&lt;title&gt;</td
+              ><td
+                >It specifies a title for the HTML page (which is shown in the
+                browser's title bar or in the page's tab)</td
+              ></tr
+            ><tr
+              ><td>&lt;body&gt;</td
+              ><td
+                >It defines the document body which includes text, images, links
+                etc.</td
+              ></tr
+            ><tr><td>&lt;p&gt;</td><td>This tag defines a paragraph</td></tr
+            ><tr
+              ><td>&lt;h1&gt; to &lt;h6&gt;</td
+              ><td>This tag defines a size of heading.</td></tr
+            ><tr
+              ><td>&lt;br&gt;</td
+              ><td
+                >This tag defines a line break, and is an empty element without
+                a closing tag</td
+              ></tr
+            ><tr
+              ><td>&lt;hr&gt;</td
+              ><td>This tag is used to draw a line on the webpage.</td></tr
+            ></tbody
+          ></table
+        ></div
+      >
+    </div>
+    <div>
+      <h2 id="cascading-style-sheets">Cascading style Sheets</h2>
+      <ul>
+        <li
+          ><strong>CSS</strong> (Cascading Style Sheet): CSS is used to define
+          styles for your web pages, including the design, layout and variations
+          in display for different devices and screen sizes.<h3
+            id="features-of-css"
+            >Features of CSS</h3
+          >
+          <ul>
+            <li
+              >CSS describes how HTML elements are to be displayed on screen,
+              paper, or in other media.</li
+            >
+            <li
+              >CSS saves a lot of work. It can control the layout of multiple
+              web pages all at once.</li
+            >
+            <li
+              >External stylesheets are stored as .css files.<h3
+                id="different-ways-to-insert-css"
+                >Different ways to insert CSS</h3
+              >
+            </li>
+            <li
+              ><strong>External CSS</strong>: With an external style sheet, you
+              can change the look of an entire website by changing just one
+              file. Each HTML page must include a reference to the external
+              style sheet file inside the
+              <code>&lt;link&gt;</code> element,inside the head section. An
+              external style sheet can be written in any text editor, and must
+              be saved with a .css extension.</li
+            >
+            <li
+              ><strong>Internal CSS</strong>: An internal style sheet may be
+              used if one single HTML page has a unique style. The internal
+              style is defined inside the <code>&lt;style&gt;</code> element,
+              inside the head section.</li
+            >
+            <li
+              ><strong>Inline CSS</strong>: An inline style may be used to apply
+              a unique style for a single element. To use inline styles, add the
+              style attribute to the relevant element. The style attribute can
+              contain any CSS property.</li
+            >
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <h2>Background Properties</h2>
+    <div>
+      <div class="tg-wrap"
+        ><table
+          ><thead
+            ><tr><th>Background Property</th><th>Syntax</th></tr></thead
+          ><tbody
+            ><tr
+              ><td
+                ><strong>Background-Color</strong> – It specifies the background
+                color of an element.</td
+              ><td>background-color:value(name of the color);</td></tr
+            ><tr
+              ><td
+                ><strong>Background-Image</strong> - It specifies an image to
+                use as the background of an element.</td
+              ><td>background-image:value/url(path of the image)</td></tr
+            ><tr
+              ><td
+                ><strong>Background-Position</strong> - It specifies the
+                position of an image at a desired place.</td
+              ><td
+                >background-position:value [xpos ypos|x% y%|
+                [top|center|bottom]| |[left|center|right]</td
+              ></tr
+            ><tr
+              ><td
+                ><strong>Background-Repeat</strong> – This property repeats an
+                image both horizontally and vertically.</td
+              ><td
+                >background-repeat:value(no-repeat|repeat-x|repeat-y|repeat).</td
+              ></tr
+            ><tr
+              ><td
+                ><strong>Background-Attachment</strong> – It specifies whether
+                the background image should scroll or be fixed.</td
+              ><td>background-attachment:value (fixed|scroll)</td></tr
+            ></tbody
+          ></table
+        ></div
+      >
+    </div>
+    <h2>Text Properties</h2>
+    <div>
+      <div class="tg-wrap"
+        ><table
+          ><thead
+            ><tr><th>Text Property</th><th>Syntax</th></tr></thead
+          ><tbody
+            ><tr
+              ><td
+                >Color – This property is used to set the color of the text.</td
+              ><td>color:value (color name / RGB color code)</td></tr
+            ><tr
+              ><td>Font – This property is used to set the font of the text.</td
+              ><td>font-family:value (name of the font)</td></tr
+            ><tr
+              ><td
+                >Font Size – This property is used to set the size of the
+                font.</td
+              ><td>font-size:value (size in pixels)</td></tr
+            ><tr
+              ><td>Bold - This property is used to make the text bold.</td
+              ><td>font-weight:bold;</td></tr
+            ><tr
+              ><td>Underline - This property is used to underline the text.</td
+              ><td>text-decoration:underline;</td></tr
+            ><tr
+              ><td>Italics - This property is used to italicize the text.</td
+              ><td>font-style:italic;</td></tr
+            ><tr
+              ><td
+                >Text Alignment - This property is used to align the text in an
+                element.</td
+              ><td>text-align:center|right|left;</td></tr
+            ></tbody
+          ></table
+        ></div
+      >
+    </div>
+    <a
+      href="https://docs.google.com/document/d/e/2PACX-1vRVQ_6zAbM1fRGRGxjtu6LPn0S7aqbY7adYKqLA8sywBAIfyczI6PXBrtE2GkC_Q6uIVPLvW6r16Gxp/pub"
+      >Handouts - HTML</a
+    >
+  </body>
+</html>
