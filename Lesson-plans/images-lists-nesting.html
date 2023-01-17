@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/sakura.css" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
+    <title>imagesListsNesting</title>
+</head>
+<body>
+    <h1 id="images-void-elements-and-lists">Images,void elements and lists</h1>
+    <h2 id="void-elements">Void Elements</h2>
+    <p>In HTML, a void element is a type of element that does not have a closing tag. These elements are also known as empty elements or self-closing tags. Void elements are used to insert elements that do not have any content, such as images or line breaks.</p>
+    <p>Examples of void elements in HTML include:</p>
+    <p><code>&lt;img&gt;</code>: used to insert images into a web page
+    <code>&lt;br&gt;</code>: used to insert a line break
+    <code>&lt;hr&gt;</code>: used to insert a horizontal rule (a line)
+    <code>&lt;input&gt;</code> : used to create form controls like text boxes, checkboxes, etc.
+    <code>&lt;link&gt;</code> : used to link external resources like CSS or other files
+    <code>&lt;meta&gt;</code> : used to provide metadata about the page such as keywords, description etc.
+    Void elements can have attributes, but they cannot have any content, and therefore, they don&#39;t have an end tag.</p>
+    <p>For example, the <code>&lt;img&gt;</code> element is used to insert an image into a web page, it takes the src attribute to specify the image location and other attribute such as alt to provide an alternative text when image is not loaded:</p>
+    <h2 id="lists">lists</h2>
+    <p>In HTML, lists are used to organize content in a hierarchical or sequential way. There are two main types of lists: ordered lists and unordered lists.</p>
+    <p>An ordered list is a list of items in which the order of the items is important. The items in an ordered list are typically numbered in the order in which they appear in the HTML.
+    An unordered list is a list of items in which the order of the items is not important. The items in an unordered list are typically displayed using bullet points.
+    Both ordered and unordered lists are created using the <code>&lt;ol&gt;</code> and <code>&lt;ul&gt;</code> elements respectively. Each list item is represented by the <code>&lt;li&gt;</code> element. The <code>&lt;li&gt;</code> element should be placed inside either an <code>&lt;ol&gt;</code> or <code>&lt;ul&gt;</code> element.</p>
+    <p>The basic structure of an ordered list looks like this:</p>
+    <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">ol</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>First item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Second item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Third item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+    </code></pre>
+    <p>The basic structure of an unordered list looks like this:</p>
+    <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>First item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Second item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Third item<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    </code></pre>
+    <p>It&#39;s worth noting that there are additional attributes that can be added to both <code>&lt;ol&gt;</code> and <code>&lt;ul&gt;</code> such as type attribute for <code>&lt;ol&gt;</code> which allows to use different numbering system for ordered lists and other attributes to change the behavior and presentation of the lists. Also, you can nest lists to create multi-level lists.</p>
+    <p>In addition to these semantic list tags, you can also use the <code>&lt;dl&gt;</code> (definition list) tag, to mark up lists of terms and their corresponding definitions.</p>
+    <p>In general, using lists in HTML helps to make web pages more structured, readable and accessible for both humans and machines. These tags are widely supported by all modern web browsers and assistive technologies.</p>
+    <h2 id="images">images</h2>
+    <p>In HTML, the <code>&lt;img&gt;</code> element is used to insert images into a web page. The <code>&lt;img&gt;</code> element is a void element, which means it does not have a closing tag and it is a self-closing element.</p>
+    <p>The <code>&lt;img&gt;</code> element requires a src attribute to specify the source of the image file, which should be a URL or a path to the image file. For example:</p>
+    <pre><code class="lang-html">&lt;<span class="hljs-selector-tag">img</span> src=<span class="hljs-string">"image.jpg"</span> /&gt;
+    </code></pre>
+    <p>In addition to the src attribute, the <img> element can also have other attributes, such as:</p>
+    <ul>
+    <li>alt: which is used to provide alternative text for the image in case the image cannot be displayed. This attribute is important for accessibility and SEO.</li>
+    <li>width and height : which are used to specify the width and height of the image in pixels.</li>
+    <li>style: to apply CSS styles to the image</li>
+    <li>class or id: to apply CSS or JavaScript to the image</li>
+    </ul>
+    <pre><code class="lang-html">&lt;<span class="hljs-selector-tag">img</span>
+      src=<span class="hljs-string">"image.jpg"</span>
+      alt=<span class="hljs-string">"A beautiful sunset"</span>
+      <span class="hljs-attribute">width</span>=<span class="hljs-string">"300"</span>
+      <span class="hljs-attribute">height</span>=<span class="hljs-string">"200"</span>
+      class=<span class="hljs-string">"sunset-image"</span> /&gt;
+    </code></pre>
+    <p>It&#39;s worth noting that the <code>&lt;img&gt;</code> element doesn&#39;t have any content, so it doesn&#39;t have an end tag.</p>
+    <p>Also, it&#39;s important to consider accessibility when using images in HTML, you should use the alt attribute to provide alternative text describing the image. This text will be displayed if the image cannot be loaded, and it will also be read aloud by screen readers to assist visually impaired users.</p>
+    <p>Images are widely used in web development to add visual appeal and enhance the user experience of web pages.</p>
+    <h2 id="difference-between-background-image-from-css-and-image-in-html">Difference between background image from css and image in HTML</h2>
+    <p>In HTML, the <code>&lt;img&gt;</code> element is used to insert images into a web page, while in CSS, the background-image property is used to set a background image for an element.</p>
+    <p>The main difference between the two is that the <code>&lt;img&gt;</code> element is used to insert an image into the content of the web page, while the background-image property is used to set an image as the background of an element.</p>
+    <p>When you use an <code>&lt;img&gt;</code> element, the image is treated as part of the content of the web page, and it takes up space on the page. You can control the size, position, and layout of the image using the width, height, float, and other CSS properties.</p>
+    <p>When you use the background-image property, the image is set as the background of an element, and it does not take up space on the page. Instead, it is behind the content of the element, and you can control how it is repeated, positioned, and sized using the background-repeat, background-position, and background-size properties.</p>
+    <p>For example, to set a background image for the <code>&lt;body&gt;</code> element:</p>
+    <pre><code class="lang-css"><span class="hljs-selector-tag">body</span> {
+      <span class="hljs-attribute">background-image</span>: <span class="hljs-built_in">url</span>(image.jpg);
+      <span class="hljs-attribute">background-repeat</span>: no-repeat;
+      <span class="hljs-attribute">background-position</span>: center;
+      <span class="hljs-attribute">background-size</span>: cover;
+    }
+    </code></pre>
+    <p>And to insert an image into the content of a web page, you would use:</p>
+    <pre><code class="lang-html">&lt;<span class="hljs-selector-tag">img</span> src=<span class="hljs-string">"image.jpg"</span> alt=<span class="hljs-string">"A beautiful sunset"</span> /&gt;
+    </code></pre>
+    <p>It&#39;s worth noting that the <code>&lt;img&gt;</code> element should be used when you want to insert an image into the content of the web page and the background-image property should be used when you want to set an image as the background of an element.</p>
+    <p>In some cases, the <code>&lt;img&gt;</code> element can be used with CSS to achieve the same effect as a background image, when the img is set to be a block element and the container is given a fixed size, but it is less performant and less maintainable.</p>
+    <h2 id="nesting">Nesting</h2>
+    <p>In HTML, nesting refers to the process of placing one element inside another element. Nesting elements allows you to create a hierarchical structure for your web page, and it helps to create well-structured, semantically meaningful, and accessible web pages.</p>
+    <p>For example, you can nest a heading element inside a paragraph element:</p>
+    <pre><code class="lang-html">&lt;p&gt;
+      &lt;h1&gt;This <span class="hljs-keyword">is</span> a heading&lt;/h1&gt;
+      This <span class="hljs-keyword">is</span> <span class="hljs-keyword">some</span> <span class="hljs-built_in">text</span> <span class="hljs-keyword">that</span> follows <span class="hljs-keyword">the</span> heading.
+    &lt;/p&gt;
+    </code></pre>
+    <p>You can also nest one list inside another list to create a nested list:</p>
+    <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item 1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+        Item 2
+        <span class="hljs-tag">&lt;<span class="hljs-name">ol</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Subitem 1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Subitem 2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item 3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    </code></pre>
+    <p>It&#39;s worth noting that while it is possible to nest elements in HTML, not all elements can be nested inside every other element. For example, a <code>&lt;p&gt;</code> element should not be nested inside a <code>&lt;ul&gt;</code> element, because it does not make semantic sense. Instead, use <code>&lt;li&gt;</code> element inside <code>&lt;ul&gt;</code>.</p>
+    <p>It&#39;s also worth noting that some elements have restriction on which elements they can contain, like a <table> should only contain rows <tr>, a <code>&lt;tr&gt;</code> should only contain cells <code>&lt;td&gt;</code> or <code>&lt;th&gt;</code>.</p>
+    <p>By following the rules of nesting and properly structuring elements, you can create web pages that are easier to read, understand, and navigate for both humans and machines.</p>
+     
+</body>
+</html>
