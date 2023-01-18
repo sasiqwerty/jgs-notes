@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/sakura.css" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
+    <title>Nesting</title>
+    <script src="/js/home-key.js"></script>
+  </head>
+  <body><h2 id="nesting">Nesting</h2>
+    <p>Nesting refers to the process of placing one element inside another element. </p>
+    <p>Nesting elements allows you to create a hierarchical structure for your web pages.</p>
+    <p>For example, you can nest a heading element inside a paragraph element:</p>
+    <pre><code class="lang-html">&lt;p&gt;
+      &lt;h1&gt;This <span class="hljs-keyword">is</span> a heading&lt;/h1&gt;
+      This <span class="hljs-keyword">is</span> <span class="hljs-keyword">some</span> <span class="hljs-built_in">text</span> <span class="hljs-keyword">that</span> follows <span class="hljs-keyword">the</span> heading.
+    &lt;/p&gt;
+    </code></pre>
+    <p>You can also nest one list inside another list to create a nested list:</p>
+    <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item 1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+        Item 2
+        <span class="hljs-tag">&lt;<span class="hljs-name">ol</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Subitem 1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Subitem 2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Item 3<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    </code></pre>
+    <p>It&#39;s worth noting that while it is possible to nest elements in HTML, not all elements can be nested inside every other element. For example, a <code>&lt;p&gt;</code> element should not be nested inside a <code>&lt;ul&gt;</code> element, because it does not make semantic sense. Instead, use <code>&lt;li&gt;</code> element inside <code>&lt;ul&gt;</code>.</p>
+    <p>It&#39;s also worth noting that some elements have restriction on which elements they can contain, like a <table> should only contain rows <tr>, a <code>&lt;tr&gt;</code> should only contain cells <code>&lt;td&gt;</code> or <code>&lt;th&gt;</code>.</p>
+    <p>By following the rules of nesting and properly structuring elements, you can create web pages that are easier to read, understand, and navigate for both humans and machines.</p>
+     </body>
+</html>
