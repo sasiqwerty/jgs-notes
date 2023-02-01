@@ -114,7 +114,6 @@
         >
       </ol>
     </section>
-    <!--TODO finish rest of the notes later    images,html programs in images hyperlinks tables and forms -->
     <div>
       <h2>3. INSERTING IMAGES</h2>
       <p
@@ -345,31 +344,31 @@
       </p>
       <img src="forms-gr.svg" alt="insert the svg later" />
     </div>
-    <div>
-      <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Application Form<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
-      <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Application Form<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"firstname"</span>&gt;</span>First Name<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"firstname"</span> /&gt;</span>
-        <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"lastname"</span>&gt;</span>Last Name<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"lastname"</span> /&gt;</span>
-        <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"checkbox"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"c1"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"graduated"</span> /&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"c1"</span>&gt;</span>graduated<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span> /&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"checkbox"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"c2"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"post-graduate"</span> /&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"c1"</span>&gt;</span>Post graduate<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">br</span> /&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"submit"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"submit"</span> /&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"reset"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"reset"</span> /&gt;</span>
-      <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
-    </code></pre>
-    </div>
+    <!-- TODO fix this form and make it look normal -->
+<div><pre><code class="lang-html">&lt;html&gt;
+  &lt;head&gt;
+  &lt;title&gt;<span class="hljs-keyword">Form</span>&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+      &lt;<span class="hljs-keyword">form</span>&gt;
+        &lt;<span class="hljs-keyword">label</span>&gt;First Name&lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"text"</span> maxlength=<span class="hljs-string">"16"</span> size=<span class="hljs-string">"25"</span>&gt;&lt;/<span class="hljs-keyword">label</span>&gt;
+        &lt;<span class="hljs-keyword">label</span>&gt;Last Name&lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"text"</span> maxlength=<span class="hljs-string">"16"</span> size=<span class="hljs-string">"50"</span>&gt;&lt;/<span class="hljs-keyword">label</span>&gt;
+        &lt;p&gt;Gender&lt;/p&gt;
+        &lt;<span class="hljs-keyword">label</span>&gt;Male&lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"radio"</span> value=<span class="hljs-string">"male"</span> name=<span class="hljs-string">"gender"</span>&gt;&lt;/<span class="hljs-keyword">label</span>&gt;
+        &lt;<span class="hljs-keyword">label</span>&gt;Female&lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"radio"</span> value=<span class="hljs-string">"female"</span> name=<span class="hljs-string">"gender"</span>&gt;&lt;/<span class="hljs-keyword">label</span>&gt;
+        &lt;p&gt;Optional Subjects after 10th <span class="hljs-keyword">class</span>&lt;/p&gt;
+        &lt;<span class="hljs-keyword">label</span>&gt;&lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"checkbox"</span> value=<span class="hljs-string">"sanskrit"</span>&gt;Sanskrit&lt;/<span class="hljs-keyword">label</span>&gt;
+        &lt;<span class="hljs-keyword">label</span>&gt;&lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"checkbox"</span> value=<span class="hljs-string">"telugu"</span>&gt;Telugu&lt;/<span class="hljs-keyword">label</span>&gt;
+        &lt;<span class="hljs-keyword">label</span>&gt;&lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"checkbox"</span> value=<span class="hljs-string">"hindi"</span>&gt;Hindi&lt;/<span class="hljs-keyword">label</span>&gt;
+        &lt;<span class="hljs-keyword">br</span>&gt;&lt;<span class="hljs-keyword">br</span>&gt;
+        &lt;<span class="hljs-keyword">label</span>&gt;&lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"submit"</span> value=<span class="hljs-string">"Send"</span>&gt;Send your <span class="hljs-keyword">form</span>&lt;/<span class="hljs-keyword">label</span>&gt;
+        &lt;<span class="hljs-keyword">label</span>&gt;&lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"reset"</span> value=<span class="hljs-string">"Reset"</span>&gt;Reset the <span class="hljs-keyword">form</span>&lt;/<span class="hljs-keyword">label</span>&gt;
+  &lt;/<span class="hljs-keyword">form</span>&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;
+  </code></pre>
+  </div>
+</div>
     <div
       ><h4>Assignment</h4><p>
         Write an HTML Document to create Form with fields
