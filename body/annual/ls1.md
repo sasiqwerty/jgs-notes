@@ -6,8 +6,11 @@ The physical components of a computer that you can touch and feel are known as *
 
 ## Internal Hardware
 
+<<<<<<< HEAD
 <!-- TODO notes have to be created -->
 
+=======
+>>>>>>> dcdbd9ed5594bd1ab2b016e48a4d505ea9e0cf57
 ### Motherboard
 
 ### CPU - Central Processing Unit
