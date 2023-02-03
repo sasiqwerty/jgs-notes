@@ -5,6 +5,8 @@
     }
   ],
   "settings": {
-    "cSpell.words": ["CCIR", "heatsink", "SMPS"]
+    "cSpell.words": ["CCIR", "heatsink", "SMPS"],
+    "todo-tree.tree.showBadges": true,
+    "todo-tree.tree.showCountsInTree": true
   }
 }
