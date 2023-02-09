@@ -137,7 +137,6 @@ video {
 
 /* Pre and Code */
 pre {
-  background-color: #f7f7f7;
   display: block;
   padding: 1em;
   overflow-x: auto;
@@ -151,7 +150,6 @@ kbd,
 samp {
   font-size: 0.9em;
   padding: 0 0.5em;
-  background-color: #f7f7f7;
   white-space: pre-wrap;
 }
 
