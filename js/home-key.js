@@ -1,5 +1,9 @@
 document.onkeyup = function (e) {
-  if (e.which == 68) {
-    window.location.href = "/index.html";
+  if (e.key == "d") {
+    window.location.href = "../index.html";
+  } else if (e.ctrlKey && e.key == ",") {
+    window.open("../time-table/timetable.html", "_blank");
+  } else if (e.altKey && e.key == "o") {
+    window.open("https://jsfiddle.net/", "_blank");
   }
 };
