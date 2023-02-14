@@ -5,5 +5,7 @@ document.onkeyup = function (e) {
     window.open("../time-table/timetable.html", "_blank");
   } else if (e.altKey && e.key == "o") {
     window.open("https://jsfiddle.net/", "_blank");
+  } else if (e.altKey && e.key == "u") {
+    window.open("../update.html", "_blank");
   }
 };
