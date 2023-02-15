@@ -1,4 +1,14 @@
 # jgs-notes
+
+## Description
+
 Notes for 7th and 8th Grades
-The lesson plans and general notes for computer studies subjects with links and description
-Might contain video links and other stuff
+
+## Shortcuts
+
+| Location  | Keyboard Key |
+| --------- | ------------ |
+| Home      | d            |
+| Timetable | alt + comma  |
+| Jsfiddle  | alt + O      |
+| Update    | alt + U      |
