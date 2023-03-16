@@ -1,13 +1,14 @@
 {
-  "folders": [
-    {
-      "path": "."
-    }
-  ],
-  "settings": {
-    "cSpell.words": ["CCIR", "heatsink", "Jsfiddle", "sakura", "SMPS"],
-    "todo-tree.tree.showBadges": true,
-    "todo-tree.tree.showCountsInTree": true,
-    "todo-tree.tree.disableCompactFolders": false
-  }
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"cSpell.words": ["CCIR", "heatsink", "Jsfiddle", "sakura", "SMPS"],
+		"todo-tree.tree.showBadges": true,
+		"todo-tree.tree.showCountsInTree": true,
+		"todo-tree.tree.disableCompactFolders": false,
+		"liveServer.settings.port": 5501
+	}
 }
