@@ -8,9 +8,24 @@
 		<link rel="stylesheet" href="/css/sakura.css" />
 		<link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
 		<script src="/js/home-key.js"></script>
-		<a href="/"></a>
+		<style>
+			main {
+				display: grid;
+				grid-template-columns: auto auto auto auto auto auto;
+				gap: 1rem;
+				padding: 0.5rem;
+				margin: 1rem;
+			}
+			main > div {
+				border: 0.1rem rgba(0, 0, 0, 0.1) solid;
+				border-radius: 0.5rem;
+				padding: 1rem;
+				background-color: rgba(57, 158, 133, 0.05);
+			}
+		</style>
 	</head>
 	<body>
+		<h1 id="heading1">JgsNotes</h1>
 		<div style="position: fixed; left: 1rem; top: 1rem">
 			<!-- The first part of the site should always contain the forward and backward buttons -->
 			<button type="button" onclick="history.back();">&#8592;</button>
@@ -18,22 +33,26 @@
 		</div>
 		<main>
 			<!-- The page has to be divided into two parts one for 7th and the other for 8th -->
-			<h3>VII</h3>
-			<ul>
-				<li>
-					<a href="./body/class7/textbook-index.html">Class 7 Textbook</a>
-				</li>
-				<li><a href="">Class 7 Notes</a></li>
-				<li><a href="">Class 7 Teaching Aids</a></li>
-			</ul>
-			<h3>VIII</h3>
-			<ul>
-				<li>
-					<a href="./body/class8/textbook-index.html">Class 8 Textbook</a>
-				</li>
-				<li>Class 8 Notes</li>
-				<li>Class 8 Teaching Aids</li>
-			</ul>
+			<div id="class7">
+				<h3>VII</h3>
+				<ul>
+					<li>
+						<a href="./body/class7/textbook-index.html">Class 7 Textbook</a>
+					</li>
+					<li><a href="./body/class7/notes-index.html">Class 7 Notes</a></li>
+					<li><a href="">Class 7 Teaching Aids</a></li>
+				</ul>
+			</div>
+			<div id="class8">
+				<h3>VIII</h3>
+				<ul>
+					<li>
+						<a href="./body/class8/textbook-index.html">Class 8 Textbook</a>
+					</li>
+					<li><a href="./body/class8/notes-index.html">Class 8 Notes</a></li>
+					<li>Class 8 Teaching Aids</li>
+				</ul>
+			</div>
 		</main>
 		<footer class="footer">
 			<span>Sarath Sasi G</span>
