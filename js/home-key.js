@@ -1,7 +1,7 @@
 document.onkeyup = function (e) {
 	if (e.key == "d") {
 		// key d - home , takes the current page to home
-		window.location.href = "./index.html";
+		window.location.href = "/index.html";
 	} else if (e.altKey && e.key == ",") {
 		// key alt and , opens a new tab with the timetable
 		window.open("../time-table/timetable.html", "_blank");
