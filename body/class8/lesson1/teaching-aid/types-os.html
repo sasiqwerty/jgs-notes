@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JGS Notes</title>
+		<link rel="stylesheet" href="/css/sakura.css" />
+		<link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
+		<script src="/js/home-key.js"></script>
+	</head>
+	<body>
+		<div style="position: fixed; left: 1rem; top: 1rem">
+			<button type="button" onclick="history.back();">&#8592;</button>
+			<button type="button" onclick="history.forward();">&#8594;</button>
+		</div>
+		<div>
+			<a
+				href="#types-os-heading"
+				style="
+					position: fixed;
+					color: #000000;
+					right: 0px;
+					bottom: 80px;
+					padding: 10px;
+					background-color: #929292;
+					opacity: 0.9;
+					border-radius: 10px 0px 0px 10px;
+					cursor: pointer;
+				"
+				>Top</a
+			>
+		</div>
+
+		<main>
+			<h1 id="types-os-heading">Types of OS</h1>
+			<ul>
+				<li>
+					<a href="#ss-os">Single-User, Single-Tasking Operating System</a>
+				</li>
+				<li><a href="#sm">Single-User, Multitasking Operating System</a></li>
+				<li><a href="#mm">Multi-User, Multitasking Operating System</a></li>
+				<li><a href="#d-os">Distributed Operating System</a></li>
+				<li><a href="#rtos">Real-Time Operating System</a></li>
+			</ul>
+			<div id="#ss-os">
+				<h2>Single User Single Tasking Operating System</h2>
+				<p>
+					A single-user, single-tasking operating system is an operating system
+					that allows a user to perform only one task or run only one program at
+					a time. Once the task or program is completed, the user can then start
+					a new task or program.
+				</p>
+				<p>
+					This type of operating system was commonly used in early personal
+					computers and other simple devices, as they had limited processing
+					power and memory. The operating system could only handle one task or
+					program at a time, and the user had to wait until the first task or
+					program was completed before starting the next one.
+				</p>
+				<p>
+					Examples of single-user, single-tasking operating systems include
+					MS-DOS (Microsoft Disk Operating System) and early versions of Apple's
+					operating system. These operating systems were primarily used on
+					personal computers and were eventually replaced by multitasking
+					operating systems, which allowed users to run multiple programs or
+					tasks simultaneously.
+				</p>
+			</div>
+			<div id="sm">
+				<h2>Single-User, Multitasking Operating System</h2>
+				<p>
+					A single-user, multitasking operating system is an operating system
+					that allows a single user to run multiple programs or tasks
+					simultaneously. This type of operating system enables users to switch
+					between different applications or processes without having to wait for
+					one to complete before starting another. It is commonly used on
+					personal computers and workstations, where a single user may need to
+					perform multiple tasks at the same time.
+				</p>
+				<p>
+					In a single-user, multitasking operating system, the operating system
+					kernel manages the system resources, such as memory, CPU time, and
+					input/output operations, and ensures that each running program or task
+					gets the resources it needs to execute efficiently. The user interacts
+					with the operating system through a graphical user interface (GUI),
+					which provides a way to start and switch between different
+					applications, manage files and directories, and perform other system
+					tasks.
+				</p>
+				<p>
+					Examples of single-user, multitasking operating systems include
+					Microsoft Windows, macOS, and various flavors of Linux. These
+					operating systems are designed to be user-friendly and provide a
+					seamless, multitasking environment for individual users to work on
+					multiple tasks simultaneously.
+				</p>
+			</div>
+			<div id="mm">
+				<h2>Multi-User, Multitasking Operating System</h2>
+				<p>
+					A multi-user, multitasking operating system is an operating system
+					that allows multiple users to access the system simultaneously, and
+					allows each user to run multiple programs or tasks at the same time.
+					This type of operating system is designed to manage and allocate
+					system resources (such as memory, CPU time, and disk space) among
+					multiple users and tasks in an efficient and fair manner.
+				</p>
+				<p>
+					In a multi-user, multitasking operating system, each user is typically
+					assigned their own user account, which is protected by a login system
+					to ensure that only authorized users can access the system. The
+					operating system also provides mechanisms for managing user
+					permissions and privileges, such as read/write access to files and
+					directories.
+				</p>
+				<p>
+					Examples of multi-user, multitasking operating systems include
+					Unix/Linux, Windows Server, and macOS Server. These operating systems
+					are commonly used in server environments, where multiple users need to
+					access shared resources such as files, databases, and applications.
+				</p>
+			</div>
+			<div id="d-os">
+				<h2>Distributed Operating System</h2>
+				<h4>
+					A distributed operating system is a software system that manages a
+					network of computers and makes them appear as a single, integrated
+					computing platform.
+				</h4>
+				<p>
+					A distributed operating system is a type of operating system that
+					manages a network of computers and makes them appear to function as a
+					single, integrated computing system. It provides a layer of
+					abstraction over the underlying physical hardware and software,
+					allowing applications to run on the distributed system without having
+					to worry about the details of the underlying infrastructure.
+				</p>
+				<p>
+					In a distributed operating system, the resources of multiple computers
+					are pooled together to provide a unified computing environment. This
+					can include shared storage, shared processing power, and other
+					resources such as printers, network devices, and other peripherals.
+					The distributed operating system manages these resources, allocates
+					them to applications as needed, and ensures that they are used
+					efficiently and effectively.
+				</p>
+				<p>
+					Examples of distributed operating systems include Microsoft Windows
+					Distributed File System, Linux Distributed File System (Lustre),
+					Google File System (GFS), and Apache Hadoop. These systems are often
+					used in large-scale data processing applications, such as data
+					analytics, machine learning, and scientific simulations.
+				</p>
+				<p>Why Cant We Use A Central Computer Instead Of Distributed Os?</p>
+				<p>
+					While a central computer may be suitable for some applications, a
+					distributed operating system provides several advantages over a
+					centralized system.
+				</p>
+				<p>
+					Firstly, a distributed operating system allows for higher levels of
+					availability and fault tolerance. If a single central computer fails,
+					the entire system can be brought down. In a distributed system,
+					however, the failure of one node does not necessarily mean the failure
+					of the entire system, as the workload can be distributed across
+					multiple nodes.
+				</p>
+				<p>
+					Secondly, a distributed operating system can provide better
+					performance and scalability. With a centralized system, all requests
+					must go through a single node, which can become a bottleneck as the
+					system grows in size and complexity. In a distributed system, the
+					workload can be spread across multiple nodes, allowing for more
+					efficient use of resources and better performance.
+				</p>
+				<p>
+					Finally, a distributed operating system can be more cost-effective
+					than a centralized system, as it allows organizations to leverage
+					existing hardware and infrastructure, rather than investing in
+					expensive, high-end servers.
+				</p>
+				<p>
+					Overall, a distributed operating system is better suited for
+					applications that require high availability, scalability, and fault
+					tolerance, as well as those that need to leverage existing hardware
+					and infrastructure.
+				</p>
+			</div>
+			<div id="rtos">
+				<h2>RTOS</h2>
+				<h4>
+					A real-time operating system (RTOS) is an operating system that
+					provides deterministic, predictable, and precise timing and response
+					for mission-critical applications.
+				</h4>
+				<h3>Deterministic process</h3>
+				<p>
+					In computing, deterministic refers to a system or process that always
+					produces the same output or result for a given input or set of inputs.
+					This means that the behavior of the system is predictable and can be
+					relied upon to produce consistent results. In the context of real-time
+					operating systems, determinism is important because it ensures that
+					the system can respond quickly and accurately to events and inputs,
+					and that the timing and sequence of operations can be precisely
+					controlled.
+				</p>
+				<h3>Predictable</h3>
+				<p>
+					In computing, predictable refers to a system or process that behaves
+					in a consistent and expected manner, allowing the behavior of the
+					system to be anticipated and planned for. This means that the system
+					can be relied upon to produce consistent and repeatable results, which
+					is important in mission-critical applications where reliability and
+					consistency are essential. In the context of real-time operating
+					systems, predictability is important because it ensures that the
+					system can respond in a timely and consistent manner to events and
+					inputs, allowing for precise control over the timing and sequence of
+					operations.
+				</p>
+				<h3>Precise</h3>
+				<p>
+					In computing, precise refers to a system or process that is accurate
+					and exact in its behavior, measurements, or outputs. This means that
+					the system can perform operations with a high degree of accuracy,
+					allowing it to produce precise results that can be relied upon. In the
+					context of real-time operating systems, precision is important because
+					it ensures that the system can perform operations with a high degree
+					of accuracy and with precise timing.
+				</p>
+				<h3>Mission-critical applications</h3>
+				<p>
+					Mission-critical applications are computer applications or systems
+					that are essential to the operation of an organization or business,
+					and failure of these systems could result in significant financial
+					loss, damage to reputation, or even risk to human life. These
+					applications are typically used in industries such as aerospace,
+					defense, healthcare, transportation, and finance, where the
+					consequences of system failure can be severe. Examples of
+					mission-critical applications include air traffic control systems,
+					medical monitoring systems, power plant control systems, financial
+					trading systems, and emergency response systems.
+				</p>
+			</div>
+		</main>
+	</body>
+</html>
