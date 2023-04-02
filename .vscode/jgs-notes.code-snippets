@@ -1,17 +1,29 @@
-  // Place your jgs-notes workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
-  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
-  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
-  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
-  // Placeholders with the same ids are connected.
-  // Example:
-  // "Print to console": {
-  // 	"scope": "javascript,typescript",
-  // 	"prefix": "log",
-  // 	"body": [
-  // 		"console.log('$1');",
-  // 		"$2"
-  // 	],
-  // 	"description": "Log output to console"
-  // }
-
+{
+	"boilerplateCodeJgs": {
+		"prefix": ["boiler-plate-jgs", "boiler-jgs"],
+		"body": [
+			"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title>${1:title}</title>\n<link rel=\"stylesheet\" href=\"/css/sakura.css\" />\n<link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\" />\n<script src=\"/js/home-key.js\"></script>\n</head>\n<body>${2:content}</body>\n</html>"
+		],
+		"description": "Works for the jgs notes site to create a good template"
+	},
+	"jgs-html": {
+		"prefix": ["jgs-html-file"],
+		"body": [
+			"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title>${1:title}</title>\n<link rel=\"stylesheet\" href=\"/css/sakura.css\" />\n<link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\" />\n<script src=\"/js/home-key.js\"></script>\n</head>\n<body>${2:content}</body>\n</html>"
+		],
+		"description": "Works for the jgs notes site to create a good template",
+		"isFileTemplate": true
+	},
+	"notes-jgs-format": {
+		"prefix": "notes-jgs",
+		"body": [
+			"<!DOCTYPE html>\r\n<html lang=\"en\" id=\"test\">\r\n\t<head>\r\n\t\t<meta charset=\"UTF-8\" />\r\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n\t\t<title>JGS Notes</title>\r\n\t\t<link rel=\"stylesheet\" href=\"/css/sakura.css\" />\r\n\t\t<link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\" />\r\n\t\t<script src=\"/js/home-key.js\"></script>\r\n\t</head>\r\n\t<body>\r\n\t\t<div style=\"position: fixed; left: 1rem; top: 1rem\">\r\n\t\t\t<button type=\"button\" onclick=\"history.back();\">&#8592;</button>\r\n\t\t\t<button type=\"button\" onclick=\"history.forward();\">&#8594;</button>\r\n\t\t</div>\r\n\t\t<div>\r\n\t\t\t<a\r\n\t\t\t\thref=\"#heading\"\r\n\t\t\t\tstyle=\"\r\n\t\t\t\t\tposition: fixed;\r\n\t\t\t\t\tcolor: #000000;\r\n\t\t\t\t\tright: 0px;\r\n\t\t\t\t\tbottom: 80px;\r\n\t\t\t\t\tpadding: 10px;\r\n\t\t\t\t\tbackground-color: #929292;\r\n\t\t\t\t\topacity: 0.9;\r\n\t\t\t\t\tborder-radius: 10px 0px 0px 10px;\r\n\t\t\t\t\tcursor: pointer;\r\n\t\t\t\t\"\r\n\t\t\t\t>Top</a\r\n\t\t\t>\r\n\t\t</div>\r\n\t\t<h1 id=\"heading\">${1:Heading1}</h1>\r\n\t</body>\r\n</html>\r\n"
+		],
+		"description": "this contains back buttons"
+	},
+	"navi-snippet": {
+		"prefix": "nav-snippet",
+		"body": "\t\t<div id=\"nav-snippet\">\r\n\t\t\t<div style=\"position: fixed; left: 1rem; top: 1rem\">\r\n\t\t\t\t<button type=\"button\" onclick=\"history.back();\">&#8592;<\/button>\r\n\t\t\t\t<button type=\"button\" onclick=\"history.forward();\">&#8594;<\/button>\r\n\t\t\t<\/div>\r\n\t\t\t<div>\r\n\t\t\t\t<a\r\n\t\t\t\t\thref=\"#heading\"\r\n\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\tposition: fixed;\r\n\t\t\t\t\t\tcolor: #000000;\r\n\t\t\t\t\t\tright: 0px;\r\n\t\t\t\t\t\tbottom: 80px;\r\n\t\t\t\t\t\tpadding: 10px;\r\n\t\t\t\t\t\tbackground-color: #929292;\r\n\t\t\t\t\t\topacity: 0.9;\r\n\t\t\t\t\t\tborder-radius: 10px 0px 0px 10px;\r\n\t\t\t\t\t\tcursor: pointer;\r\n\t\t\t\t\t\"\r\n\t\t\t\t\t>Top<\/a\r\n\t\t\t\t>\r\n\t\t\t<\/div>\r\n\t\t<\/div>",
+		"description": "Navigation snippet for fast access"
+	}
+}
