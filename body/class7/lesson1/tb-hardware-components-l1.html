@@ -10,12 +10,37 @@
 		<script src="/js/home-key.js"></script>
 	</head>
 	<body>
-        <div style="position: sticky; left: 1rem; top: 1rem;">
-			<button type="button" onclick="history.back();">&#8592</button>
-			<button type="button" onclick="history.forward();">&#8594</button>
+		<div style="position: sticky; left: 1rem; top: 1rem">
+			<button type="button" onclick="history.back();">&#8592;</button>
+			<button type="button" onclick="history.forward();">&#8594;</button>
+		</div>
+		<div>
+			<a
+				href="#heading"
+				style="
+					position: fixed;
+					color: #000000;
+					right: 0px;
+					bottom: 80px;
+					padding: 10px;
+					background-color: #929292;
+					opacity: 0.9;
+					border-radius: 10px 0px 0px 10px;
+					cursor: pointer;
+				"
+				>Top</a
+			>
 		</div>
 		<main>
-			<h1>Hardware Components</h1>
+			<h1 id="heading">Hardware Components</h1>
+			<div>
+				<h2>Index</h2>
+				<ol>
+					<li><a href="#internal-hardware">Internal Hardware</a></li>
+					<li><a href="#ports">Ports</a></li>
+					<li><a href="#external-hardware">External Hardware</a></li>
+				</ol>
+			</div>
 			<h2>Learning Outcomes</h2>
 			<ul>
 				<li>Recognize different components of a computer.</li>
@@ -43,7 +68,7 @@
 				two components, a computer cannot work. Let us learn about the different
 				hardware components of a computer system, in detail.
 			</p>
-			<h2>Internal Hardware</h2>
+			<h2 id="internal-hardware">Internal Hardware</h2>
 			<p>
 				The hardware components that are installed inside the CPU cabinet are
 				called internal hardware. For example, CPU, RAM, ROM, disk drives,
@@ -211,7 +236,7 @@
 				and air<br />
 				conditioning systems, Graphic Processing Systems (GPUs), and so on.
 			</p>
-			<h3>Ports</h3>
+			<h3 id="ports">Ports</h3>
 			<p>
 				A computer port is a slot on the motherboard that acts as a point of
 				connection between a computer and an external device. Cables of external
@@ -251,12 +276,12 @@
 				PS/2 connector was developed by IBM in 1987. PS/2 port is now considered
 				a legacy port as it has been replaced by the USB port. It was used for
 				attaching keyboard and mouse to a computer.<br />
-				It is also known as IEEE 1394, and developed by Apple Inc. It can
-				transfer a large amount of data with speed upto 800 Mbps and connect
-				upto 63 different devices.
 			</p>
 			<h4>FireWire</h4>
 			<p>
+				It is also known as IEEE 1394, and developed by Apple Inc. It can
+				transfer a large amount of data with speed upto 800 Mbps and connect
+				upto 63 different devices. <br />
 				You can use FireWire port to connect external devices, such as a hard
 				drive or digital video camera, without restarting your computer.
 			</p>
@@ -280,16 +305,17 @@
 			<p>
 				An ethernet RJ 45 connector looks like a telephone line RJ 11 connector.
 				It is used to connect your computer with a wired network.<br />
-				Line-in: It enables a user to connect an external audio device with the
-				computer.
+				.
 			</p>
 			<h4>Audio</h4>
 			<p>
+				Line-in: It enables a user to connect an external audio device with the
+				computer <br />
 				Line-out: It allows external speakers, headphones, or other output
 				devices to be connected to the computer.<br />
 				Mic port: It helps in plugging microphone into the computer.
 			</p>
-			<h2>External Hardware</h2>
+			<h2 id="external-hardware">External Hardware</h2>
 			<p>
 				The components that are attached to the computer externally, are called
 				external hardware components. These are also known as Peripherals. These

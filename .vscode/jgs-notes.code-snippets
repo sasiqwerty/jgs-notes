@@ -25,5 +25,11 @@
 		"prefix": "nav-snippet",
 		"body": "\t\t<div id=\"nav-snippet\">\r\n\t\t\t<div style=\"position: fixed; left: 1rem; top: 1rem\">\r\n\t\t\t\t<button type=\"button\" onclick=\"history.back();\">&#8592;<\/button>\r\n\t\t\t\t<button type=\"button\" onclick=\"history.forward();\">&#8594;<\/button>\r\n\t\t\t<\/div>\r\n\t\t\t<div>\r\n\t\t\t\t<a\r\n\t\t\t\t\thref=\"#heading\"\r\n\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\tposition: fixed;\r\n\t\t\t\t\t\tcolor: #000000;\r\n\t\t\t\t\t\tright: 0px;\r\n\t\t\t\t\t\tbottom: 80px;\r\n\t\t\t\t\t\tpadding: 10px;\r\n\t\t\t\t\t\tbackground-color: #929292;\r\n\t\t\t\t\t\topacity: 0.9;\r\n\t\t\t\t\t\tborder-radius: 10px 0px 0px 10px;\r\n\t\t\t\t\t\tcursor: pointer;\r\n\t\t\t\t\t\"\r\n\t\t\t\t\t>Top<\/a\r\n\t\t\t\t>\r\n\t\t\t<\/div>\r\n\t\t<\/div>",
 		"description": "Navigation snippet for fast access"
+	},
+	"backtotop":{
+		"prefix": "back2top",
+		"body": "\t\t\t<div>\r\n\t\t\t\t<a\r\n\t\t\t\t\thref=\"#heading\"\r\n\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\tposition: fixed;\r\n\t\t\t\t\t\tcolor: #000000;\r\n\t\t\t\t\t\tright: 0px;\r\n\t\t\t\t\t\tbottom: 80px;\r\n\t\t\t\t\t\tpadding: 10px;\r\n\t\t\t\t\t\tbackground-color: #929292;\r\n\t\t\t\t\t\topacity: 0.9;\r\n\t\t\t\t\t\tborder-radius: 10px 0px 0px 10px;\r\n\t\t\t\t\t\tcursor: pointer;\r\n\t\t\t\t\t\"\r\n\t\t\t\t\t>Top<\/a\r\n\t\t\t\t>\r\n\t\t\t<\/div>\r\n\t\t<\/div>\r\n\t\t<h1 id=\"heading\">Advantages of GUI interface<\/h1>",
+		"description": "Scroll back to top feature, requires an id in the heading to work"
 	}
+
 }
