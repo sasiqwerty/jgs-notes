@@ -36,14 +36,484 @@
 		<main>
 			<!-- TODO func os - file  -->
 			<h1 id="heading">Functions of Operating System</h1>
-			<h2>Process Management</h2>
-			<h2>Memory Management</h2>
-			<h2>Provision of User Interface</h2>
-			<h2>File Management</h2>
-			<h2>booting and configuring the hardware.</h2>
-			<h2>Job Scheduling</h2>
-			<h2>Security and Protection</h2>
-			<h2>Device Management</h2>
+
+			<!-- TODO insert the functions of operating system here -->
+			<div>
+				<img src="" alt="functions-operating-system" />
+			</div>
+			<div>
+				<h2>Functions of the operating system with an example</h2>
+				<p>
+					Imagine a bustling city with thousands of buildings, cars, people, and
+					activities happening all at once. It would be chaos if there were no
+					traffic rules, public services, and authorities to manage and
+					coordinate everything. The operating system (OS) is like the city's
+					management system, providing a structured and efficient way for
+					different programs, hardware, and users to interact and operate on a
+					computer. Here are some examples of the functions of an OS:
+				</p>
+
+				<p>
+					<strong>Resource management:</strong> The OS allocates and manages the
+					computer's resources such as memory, processor, storage, and
+					input/output devices. It ensures that each program gets a fair share
+					of the resources and prevents conflicts or crashes. It's like a
+					traffic controller regulating the flow of vehicles on different roads
+					to avoid congestion and accidents.
+				</p>
+
+				<p>
+					<strong>User interface:</strong> The OS provides a graphical or
+					command-line interface that enables users to interact with the
+					computer and its programs. It's like a concierge who welcomes guests
+					to a hotel and shows them around, providing menus, maps, and
+					directions.
+				</p>
+
+				<p>
+					<strong>File management</strong>: The OS organizes, stores, and
+					retrieves files and folders on the computer's storage devices. It
+					ensures that users can access their data easily and securely, and
+					prevents data loss or corruption. It's like a librarian who catalogs
+					books and arranges them in shelves, ensuring that each book has a
+					unique identifier and location.
+				</p>
+
+				<p>
+					<strong>Security</strong>: The OS protects the computer and its data
+					from unauthorized access, viruses, and malware. It enforces user
+					authentication, encryption, firewalls, and other security measures to
+					prevent data breaches or system damage. It's like a police force that
+					patrols the city, checks IDs, and investigates suspicious activities.
+				</p>
+
+				<p>
+					<strong>Networking</strong>: The OS enables the computer to connect
+					and communicate with other computers and devices on a network. It
+					provides protocols, drivers, and services for data transfer, sharing,
+					and remote access. It's like a telecommunication company that sets up
+					phone lines, routers, and satellites to connect people across the
+					world.
+				</p>
+
+				<p>
+					Overall, the OS is the backbone of the computer, providing a stable,
+					secure, and user-friendly environment for a wide range of applications
+					and users. Without an OS, a computer would be just a collection of
+					parts, unable to perform any meaningful task.
+				</p>
+			</div>
+			<div>
+				<h2>Resources available for the operating system</h2>
+				<p>
+					There are several resources available for the operating system to
+					manage and allocate efficiently, including:
+				</p>
+
+				<p>
+					Memory: This is the computer's primary storage space for data and
+					program instructions. The operating system manages the memory to
+					ensure that each program gets the memory it needs to run correctly.
+				</p>
+
+				<p>
+					Processor: This is the computer's central processing unit (CPU), which
+					performs calculations and executes program instructions. The operating
+					system manages the processor to ensure that each program gets a fair
+					share of processing time and that the system does not become
+					overloaded.
+				</p>
+
+				<p>
+					Storage: This includes the hard drive, solid-state drive, and other
+					storage devices that hold the computer's data and programs. The
+					operating system manages storage to ensure that files are stored
+					efficiently and that data is not lost or corrupted.
+				</p>
+
+				<p>
+					Input/output devices: These include the keyboard, mouse, monitor,
+					printer, and other devices that allow users to interact with the
+					computer. The operating system manages input/output devices to ensure
+					that they work correctly and that data is transferred between the
+					devices and the computer smoothly.
+				</p>
+
+				<p>
+					Network resources: These include the network interface card (NIC),
+					router, and other devices that enable the computer to communicate with
+					other computers and devices over a network. The operating system
+					manages network resources to ensure that data is transmitted correctly
+					and that the network is secure.
+				</p>
+
+				<p>
+					Overall, the operating system manages and allocates these resources to
+					ensure that programs run correctly and that the computer operates
+					efficiently.
+				</p>
+			</div>
+
+			<div>
+				<h2>Process Management</h2>
+				<p>
+					In computing, a process is an instance of a program that is currently
+					running on a computer's operating system. A process is a fundamental
+					concept in operating system design and is the unit of work in a
+					computer system.
+				</p>
+				<p>
+					When a program is executed, the operating system creates a process to
+					manage its execution. The process consists of the program code and
+					data, as well as the resources that the program needs to run, such as
+					memory, processor time, and input/output devices.
+				</p>
+				<p>
+					Each process has its own address space, which is the memory area where
+					the program's instructions and data are stored. The operating system
+					manages the memory allocation and deallocation for each process,
+					ensuring that they do not interfere with each other.
+				</p>
+				<p>
+					Processes also have their own execution context, including the values
+					of the processor's registers and the program counter, which indicates
+					the current instruction being executed. The operating system manages
+					the scheduling of processes, determining which process gets access to
+					the CPU and for how long.
+				</p>
+				<p>
+					Processes can communicate with each other and with the operating
+					system through various mechanisms, such as inter-process communication
+					(IPC), signals, and system calls.
+				</p>
+				<p>
+					Overall, a process is a fundamental unit of work in an operating
+					system, representing the execution of a program and the allocation of
+					resources necessary for its operation.
+				</p>
+			</div>
+			<div>
+				<h2>Memory Management</h2>
+				<p>
+					The operating system manages memory by allocating and deallocating
+					memory resources for processes and ensuring that they do not interfere
+					with each other. Here are some of the ways the operating system
+					manages memory:
+				</p>
+
+				<ul>
+					<li>
+						Memory allocation: When a process requests memory, the operating
+						system allocates a portion of memory for the process. The operating
+						system keeps track of which memory locations are available and which
+						are in use, ensuring that each process gets the memory it needs. The
+						operating system can also use techniques such as virtual memory to
+						allocate memory that is not physically present in the computer's
+						main memory.
+					</li>
+					<li>
+						Memory protection: The operating system uses memory protection to
+						prevent one process from accessing or modifying the memory used by
+						another process. The operating system sets up memory protection by
+						assigning each process its own address space, ensuring that the
+						memory used by one process is not used by another process.
+					</li>
+					<li>
+						Memory deallocation: When a process is finished executing or no
+						longer needs memory, the operating system deallocates the memory
+						used by the process. The operating system marks the memory as free,
+						making it available for use by other processes.
+					</li>
+					<li>
+						Memory swapping: When the computer's physical memory is low, the
+						operating system can swap out parts of a process's memory to disk to
+						free up physical memory. The operating system can then swap the
+						memory back into physical memory when it is needed.
+					</li>
+					<li>
+						Memory fragmentation: Over time, memory can become fragmented,
+						meaning that free memory is scattered throughout memory space in
+						small pieces. The operating system can use memory compaction
+						techniques to defragment memory, rearranging memory allocations to
+						reduce fragmentation.
+					</li>
+				</ul>
+
+				<p>
+					Overall, the operating system manages memory to ensure that each
+					process gets the memory it needs and that processes do not interfere
+					with each other. This helps to ensure the stability and performance of
+					the computer system.
+				</p>
+			</div>
+
+			<div>
+				<h2>Provision of User Interface</h2>
+				<p>
+					The building blocks of a user interface are the fundamental elements
+					that make up the interface and allow users to interact with a computer
+					system. Here are some of the most common building blocks of a user
+					interface:
+				</p>
+				<ul>
+					<li>
+						Windows: A window is a rectangular area on the computer screen that
+						displays information or allows the user to interact with the system.
+						Windows can be moved, resized, minimized, and closed.
+					</li>
+					<li>
+						Icons: Icons are small graphical representations of files, folders,
+						programs, or other objects that are displayed on the screen. Icons
+						provide a quick and easy way for users to access frequently used
+						items.
+					</li>
+					<li>
+						Menus: Menus are lists of options that are displayed when a user
+						clicks on a menu bar or right-clicks on an object. Menus allow users
+						to perform tasks or access information in an organized and
+						hierarchical manner.
+					</li>
+					<li>
+						Buttons: Buttons are graphical elements that the user can click on
+						to perform an action. Buttons can be used for tasks such as
+						submitting a form, starting a program, or closing a window.
+					</li>
+					<li>
+						Text fields: Text fields allow users to input text or numbers into a
+						program or form. Text fields can be used for tasks such as entering
+						a search term or filling out a contact form.
+					</li>
+					<li>
+						Dialog boxes: Dialog boxes are windows that are displayed to the
+						user to provide additional information or to request input. Dialog
+						boxes can be used for tasks such as confirming an action or changing
+						program settings.
+					</li>
+					<li>
+						Toolbars: Toolbars are graphical elements that provide quick access
+						to frequently used commands or tools. Toolbars can be customized to
+						include only the most commonly used tools.
+					</li>
+				</ul>
+
+				<p>
+					Overall, these building blocks of a user interface provide the
+					foundation for users to interact with computer systems in a way that
+					is intuitive and efficient. By using these elements in a well-designed
+					interface, software developers can create interfaces that are easy to
+					use and increase user productivity.
+				</p>
+				<p>
+					<strong>A story Example</strong> <br />
+					A man named John gets lost in a new city during a business trip. He
+					couldn't understand directions given by a passerby due to a language
+					barrier, but luckily he remembered he had a map in his bag. After
+					matching the street names, he was able to find his way back to the
+					hotel. John learned the importance of carrying a map while traveling
+					in unfamiliar places.
+					<br />
+				</p>
+				<p>
+					Jhon was asking for help in an unfamiliar area, this can be thought as
+					an users attempt to navigate the interface without guidance or
+					assistance.,
+				</p>
+
+				<p>
+					In the context of user interface, a map could be a graphical
+					representation of a software application's navigation system. It can
+					help users understand how to move through the various pages or screens
+					of the application and locate specific functions or features. Just
+					like a real-world map, a user interface map provides an overview of
+					the application's structure, making it easier for users to navigate
+					and find what they need. This can be especially important for complex
+					applications or those with multiple layers of functionality.
+				</p>
+			</div>
+
+			<div>
+				<h2>File Management</h2>
+				<p>
+					File management is an important function of an operating system that
+					involves organizing, storing, and accessing files on a computer
+					system. Here are some of the key aspects of file management in an
+					operating system:
+				</p>
+
+				<ul>
+					<li>
+						File system: The file system is a hierarchical structure used by the
+						operating system to organize files and directories. The file system
+						provides a way for the operating system to locate and access files
+						on the computer system.
+					</li>
+
+					<li>
+						File naming: Each file on the computer system is assigned a unique
+						name. The file name is used by the operating system to identify and
+						locate the file. The file name can also provide information about
+						the contents of the file.
+					</li>
+
+					<li>
+						File attributes: File attributes are properties that describe a
+						file, such as the file size, date created, date modified, and file
+						type. These attributes are used by the operating system to manage
+						and access files.
+					</li>
+
+					<li>
+						File operations: The operating system provides a range of file
+						operations, including creating, copying, moving, deleting, and
+						renaming files. These operations are used to manage and organize
+						files on the computer system.
+					</li>
+
+					<li>
+						File access control: The operating system provides mechanisms to
+						control access to files. This includes setting permissions for users
+						and groups to determine who can access and modify files.
+					</li>
+
+					<li>
+						File backup and recovery: The operating system provides mechanisms
+						to back up files to protect against data loss. This includes the
+						ability to create backups of files and restore them in case of a
+						system failure or data corruption.
+					</li>
+				</ul>
+
+				<p>
+					Overall, file management is a critical function of an operating system
+					that enables users to store, organize, and access files on a computer
+					system. By providing tools and mechanisms for file management, the
+					operating system ensures that files are secure, organized, and
+					available when needed.
+				</p>
+			</div>
+
+			<div>
+				<h2>Job Scheduling</h2>
+				<p>
+					Job scheduling is the process of determining which processes or tasks
+					should be executed by the operating system and in what order. In a
+					computer system, there are typically multiple processes or tasks
+					competing for system resources, such as CPU time and memory, and job
+					scheduling helps to ensure that these resources are allocated
+					efficiently and fairly among the processes.
+				</p>
+
+				<p>
+					The job scheduler is responsible for determining the order in which
+					processes should be executed based on a set of scheduling algorithms.
+					These algorithms consider factors such as the priority of the process,
+					the amount of CPU time required by the process, and the amount of
+					memory required by the process.
+				</p>
+
+				<ul>
+					<h6>
+						Some common scheduling algorithms used in job scheduling include:
+					</h6>
+
+					<li>
+						First-come, first-served (FCFS): This algorithm executes processes
+						in the order in which they are received by the system. Processes are
+						executed in a queue, with the first process in the queue being
+						executed first.
+					</li>
+
+					<li>
+						Shortest job first (SJF): This algorithm prioritizes processes based
+						on their estimated execution time. The process with the shortest
+						estimated execution time is executed first.
+					</li>
+
+					<li>
+						Priority scheduling: This algorithm assigns a priority level to each
+						process based on its importance. The process with the highest
+						priority level is executed first.
+					</li>
+
+					<li>
+						Round-robin scheduling: This algorithm allocates CPU time to each
+						process in equal time slices. Each process is executed for a set
+						amount of time before being preempted and moved to the back of the
+						queue.
+					</li>
+
+					<li>
+						Job scheduling plays an important role in ensuring that computer
+						systems are used efficiently and effectively. By prioritizing and
+						organizing processes, job scheduling helps to maximize system
+						resources, minimize response time, and ensure that critical
+						processes are executed in a timely manner.
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h2>Security and Protection</h2>
+				<p>
+					Security and protection are key functions of an operating system,
+					which are designed to protect computer systems and their users from
+					various security threats and unauthorized access. Here are some of the
+					ways in which an operating system provides security and protection:
+				</p>
+
+				<ul>
+					<li>
+						Access control: The operating system provides mechanisms to control
+						access to system resources such as files, folders, and devices.
+						Access control allows the operating system to ensure that only
+						authorized users or processes can access these resources.
+					</li>
+
+					<li>
+						User authentication: The operating system provides authentication
+						mechanisms such as passwords, biometrics, or smart cards to verify
+						the identity of users before allowing them to access the system.
+					</li>
+
+					<li>
+						Encryption: The operating system provides encryption mechanisms to
+						protect sensitive data stored on the computer system. Encryption
+						converts plain text into a coded form that is unreadable without the
+						correct decryption key.
+					</li>
+
+					<li>
+						Firewall: The operating system provides firewall software to protect
+						the system from unauthorized network access. Firewalls can prevent
+						incoming traffic from unauthorized sources and can also block
+						outgoing traffic to unauthorized destinations.
+					</li>
+
+					<li>
+						Anti-malware: The operating system provides anti-malware software to
+						protect the system from viruses, worms, and other types of malware
+						that can damage the system or compromise user data.
+					</li>
+
+					<li>
+						System updates: The operating system provides regular updates to fix
+						security vulnerabilities and improve system stability. Updates can
+						also provide new security features and enhancements to existing
+						security mechanisms.
+					</li>
+				</ul>
+				<p>
+					Overall, security and protection are critical functions of an
+					operating system that help to ensure the confidentiality, integrity,
+					and availability of computer systems and their data. By providing a
+					range of security mechanisms, the operating system helps to protect
+					users and their data from various security threats and unauthorized
+					access.
+				</p>
+			</div>
+			<div>
+				<h2>Device Management</h2>
+				
+			</div>
 		</main>
 	</body>
 </html>
