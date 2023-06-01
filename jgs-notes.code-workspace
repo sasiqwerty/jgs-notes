@@ -5,7 +5,17 @@
 		}
 	],
 	"settings": {
-		"cSpell.words": ["CCIR", "heatsink", "Jsfiddle", "sakura", "SMPS"],
+		"cSpell.words": [
+			"CCIR",
+			"heatsink",
+			"Jsfiddle",
+			"Mahabaleshwar",
+			"Panchgani",
+			"sakura",
+			"Shakuntala",
+			"Shakuntalam",
+			"SMPS"
+		],
 		"todo-tree.tree.showBadges": true,
 		"todo-tree.tree.showCountsInTree": true,
 		"todo-tree.tree.disableCompactFolders": false,
